@@ -8,7 +8,7 @@ const projects = [
   { 
     title: "Income Tax Calculator", 
     description: "A calculator to determine income tax assessments for small businesses using their gross turnover.", 
-    url: "https://github.com/barigyederek/barigyederek.github.io" 
+    url: "https://barigyederek.github.io/" 
   },
   {
     title: "Media File Organizer",
@@ -18,7 +18,7 @@ const projects = [
   {
     title: "Spotify Playlist Viewer",
     description: "A web application that connects to Spotify's API to view and browse your playlists, displaying track details including song names, artists, and durations with a clean, responsive interface.",
-    url: "https://github.com/barigyederek/Spotify_v1_beta"
+    url: "https://barigyederek.github.io/Spotify_v1_beta/"
 }
 ];
 export { projects };
