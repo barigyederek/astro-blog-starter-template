@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: 
 
-Sitemap: https://astro-blog-starter-template.derek-barigye.workers.dev/sitemap.xml
+Sitemap: https://astro-blog-starter-template.derek-barigye.workers.dev/public/sitemap.xml
