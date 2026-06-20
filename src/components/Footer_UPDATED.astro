@@ -20,24 +20,48 @@ const today = new Date();
 		</a>
 	</div>
 </footer>
+
 <style>
 	footer {
 		padding: 2em 1em 6em 1em;
 		background: linear-gradient(var(--gray-gradient)) no-repeat;
 		color: rgb(var(--gray));
 		text-align: center;
+		transition: background-color 250ms ease, color 250ms ease;
 	}
+
+	/* Dark mode support */
+	@media (prefers-color-scheme: dark) {
+		footer {
+			background: #161B22;
+			color: #8B949E;
+		}
+	}
+
 	.social-links {
 		display: flex;
 		justify-content: center;
 		gap: 1em;
 		margin-top: 1em;
 	}
+
 	.social-links a {
 		text-decoration: none;
 		color: rgb(var(--gray));
+		transition: color 150ms ease;
 	}
+
 	.social-links a:hover {
 		color: rgb(var(--gray-dark));
+	}
+
+	@media (prefers-color-scheme: dark) {
+		.social-links a {
+			color: #8B949E;
+		}
+
+		.social-links a:hover {
+			color: #3B82F6;
+		}
 	}
 </style>
